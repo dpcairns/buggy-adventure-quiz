@@ -1,0 +1,39 @@
+#quests {
+    position: relative;
+    background-image: url("../assets/portland-map.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: calc(70vw * 642 / 963);
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.quest {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.quest.completed {
+    color: whitesmoke;
+    font-size: .9em;
+}
+
+.quest.completed:after {
+    content: ' ✔';
+}
+
+h2 {
+    font-size: large;
+    text-align: center;
+    color: rgb(106, 224, 245);
+}
+
+img {
+    border: black solid 2px;
+}

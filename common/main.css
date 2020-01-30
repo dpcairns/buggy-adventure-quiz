@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(113, 123, 211);
+    margin: 0;
+    color: rgb(106, 224, 245);
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+header, main {
+    padding: 8px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(101, 199, 101);
+    border-bottom: 1px solid rgb(115, 211, 131);
+}
+
+h1 {
+    margin: 0 20px;
+    flex-grow: 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; right: 0;
+    height: 65px;
+    background: lightgrey;
+    text-align: center;
+    padding-top: 25px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+
+input, fieldset, button {
+    border: 1px solid rgb(55, 218, 77);
+}
+
+button {
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
