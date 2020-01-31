@@ -5,24 +5,24 @@ QUnit.module('score quest');
 
 test('creates correct html', (assert) => {
     // arrange
-    const questId = 'treasure';
+    const questId = 'coffee';
     
     const choice = {
-        hp: -10,
-        gold: 20
+        health: -10,
+        cred: 20
     };
 
     const user = {
-        hp: 30,
-        gold: 0,
+        health: 30,
+        cred: 0,
         completed: {}
     };
 
     const expected = {
-        hp: 20,
-        gold: 20,
+        health: 20,
+        cred: 20,
         completed: {
-            treasure: true
+            coffee: true
         }
     };
 

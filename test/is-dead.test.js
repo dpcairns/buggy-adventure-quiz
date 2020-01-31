@@ -5,7 +5,7 @@ QUnit.module('user is dead');
 
 test('true', function(assert) {
     const user = {
-        hp: 0
+        health: 0
     };
 
     const dead = isDead(user);
@@ -15,7 +15,7 @@ test('true', function(assert) {
 
 test('false', function(assert) {
     const user = {
-        hp: 10
+        health: 10
     };
 
     const dead = isDead(user);

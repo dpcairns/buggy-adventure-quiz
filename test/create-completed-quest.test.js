@@ -6,15 +6,15 @@ QUnit.module('create completed quest');
 test('creates correct html', (assert) => {
     // arrange
     const quest = {
-        id: 'treasure',
-        title: 'The Golden Treasure',
+        id: 'coffee',
+        title: 'A Coffee Shop in NE',
         map: {
-            top: '31%',
-            left: '5%'
+            top: '20%',
+            left: '44%'
         }
     };
 
-    const expected = '<span class="quest completed" style="top: 31%; left: 5%;">The Golden Treasure</span>';
+    const expected = '<span class="quest completed" style="top: 20%; left: 44%;">A Coffee Shop in NE</span>';
 
     // act
     const dom = createCompletedQuest(quest);

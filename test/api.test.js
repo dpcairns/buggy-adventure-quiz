@@ -11,8 +11,8 @@ QUnit.testStart(() => {
 test('saveUser sets user and returns on getUser', (assert) => {
     // arrange
     const user = { 
-        name: 'Galadriel',
-        race: 'elf',
+        name: 'Dinky',
+        race: 'techie',
         hp: 35,
         gold: 100
     };
