@@ -6,7 +6,7 @@ export const aliveCredMessages = {
 
 export const deadCredMessages = {
     poor: 'you are forever known as a narc',
-    modest: 'you are dead, but at least a couple people will remember you',
+    modest: 'at least a couple people will remember you',
     rich: 'the city builds a monument in your honor'
 };
 

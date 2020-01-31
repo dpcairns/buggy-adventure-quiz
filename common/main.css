@@ -25,7 +25,7 @@ header, main {
 
 header {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     background: rgb(101, 199, 101);
     border-bottom: 1px solid rgb(115, 211, 131);
@@ -34,6 +34,8 @@ header {
 h1 {
     margin: 0 20px;
     flex-grow: 2;
+    color: black;
+    margin-top: 100px;
 }
 
 footer {
@@ -61,3 +63,38 @@ button {
     font-size: 1.2em;
     font-weight: bolder;
 }
+
+#pdx-image {
+
+    width: 20%;
+}
+
+h2 {
+    font-size: large;
+    text-align: center;
+    color: rgb(106, 224, 245);
+}
+
+img {
+    border: black solid 2px;
+}
+
+/* .container {
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+  } */
+
+
+#results-image {
+    /* width: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    min-height: 100px;
+    margin: auto;
+}
+
+

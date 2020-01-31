@@ -28,12 +28,16 @@
     content: ' ✔';
 }
 
-h2 {
-    font-size: large;
-    text-align: center;
-    color: rgb(106, 224, 245);
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-img {
-    border: black solid 2px;
+.profile * {
+    margin-right: 5px;
+}
+
+.profile-stat-label {
+    text-transform: uppercase; 
 }

@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <img src="../assets/portland-logo.png" alt="Portland Logo">
-        <h1>PDX Adventure Quest</h1>
+        <img id="pdx-image" src="../assets/portland-logo.png" alt="Portland Logo">
+        <!-- <h1>PDX Adventure Quest</h1> -->
         <div class="profile">
             <img id="avatar">
             <span id="name"></span>
@@ -24,17 +24,14 @@
             Your PDX Adventure Has Ended!
         </h2>
         <p id="story-display"></p>
-        <img id="result-image">
+        <img class="container" id="results-image" src="../assets/results.jpg" alt="Results">
+        <audio autoplay> 
+            <source src="../assets/Farewell.mp3" type="audio/mpeg">  
+        </audio>  
         <p>
             <a href="../">Start Over</a>
         </p>
     </main>
-
-    <!-- <footer>
-        <cite>
-            Icons designed by Freepik from Flaticon
-        </cite>
-    </footer> -->
 
     <script type="module" src="results.js"></script>
 </body>
