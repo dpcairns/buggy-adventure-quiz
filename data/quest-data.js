@@ -107,7 +107,7 @@ const NWWhole = {
         cred: 0
     }, {
         id: 'pretend',
-        description: 'Pretend like you have air pods on and you cannot here him',
+        description: 'Pretend like you have air pods on and you cannot hear him',
         result: `
         Oh man, you got out of that one, thank god... - Health: +35 Cred: +40
         `,
