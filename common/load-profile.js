@@ -18,7 +18,7 @@ function loadProfile() {
     }
 
     // copy data from object to DOM properties:
-    name.textContent = user.name;
+    name.text = user.name;
     avatar.src = '../assets/avatars/' + user.race + '.png';
     cred.textContent = user.cred;
 

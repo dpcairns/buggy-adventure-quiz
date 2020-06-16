@@ -7,6 +7,6 @@ export function saveUser(user) {
 export function getUser() {
     const json = localStorage.getItem('user');
     if (!json) return null;
-    const user = JSON.parse(json);
+    const user = JSON.stringify(json);
     return user;
 }
